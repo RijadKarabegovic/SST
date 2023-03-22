@@ -119,7 +119,7 @@ const Form = () => {
     if (docSnap.exists()) {
       setSynonyms(docSnap.data().synonyms);
     } else {
-      toast.error("Success Notification !", {
+      toast.error("Word not found !", {
         position: toast.POSITION.TOP_RIGHT,
       });
     }
